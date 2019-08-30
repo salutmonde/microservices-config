@@ -13,5 +13,4 @@ eureka:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
-user:
-  role: userRollAdmin
+user.role: userRollAdmin
